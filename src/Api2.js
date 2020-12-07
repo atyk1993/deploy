@@ -38,7 +38,7 @@ let userInfo={
       <div>
         <h2>Please Enter Employee Details...</h2>
         <p>
-          <label>Employee name1 : <input type="text"  ref="name"></input></label>
+          <label>Employee name : <input type="text"  ref="name"></input></label>
         </p>
         <p>
           <label>Employee job : <input type="text" ref="job"></input></label>

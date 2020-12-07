@@ -24,6 +24,7 @@ let userInfo={
       fetch(url,{
       method: 'POST',
       headers:{'Content-type':'application/json'},
+      mode: 'no-cors',
         body: userInfo
     }).then(r=>r.json()).then(res=>{
       if(res){

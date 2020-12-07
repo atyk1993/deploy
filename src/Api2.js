@@ -18,11 +18,10 @@ let userInfo={
 
     };
 
-    const proxy = 'http://api.codetabs.com/v1/proxy/?quest='
     const url =
       'https://reqres.in/api/users/'
 
-      fetch(proxy+url,{
+      fetch(url,{
       method: 'POST',
       headers:{'Content-type':'application/json'},
         body: userInfo
